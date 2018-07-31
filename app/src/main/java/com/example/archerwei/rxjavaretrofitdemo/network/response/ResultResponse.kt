@@ -4,6 +4,7 @@ import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
 
 class ResultResponse : BaseResponse() {
+
     @SerializedName("feed")
     @Expose
     var feed: Feed? = null
