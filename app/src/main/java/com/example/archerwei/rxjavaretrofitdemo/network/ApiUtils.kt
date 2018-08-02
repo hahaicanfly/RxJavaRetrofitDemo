@@ -4,6 +4,7 @@ import android.content.Context
 
 class ApiUtils {
 
+    //設定Api 連線主機
     companion object {
 
         private var DOMAIN_URL = ""
